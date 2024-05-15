@@ -21,9 +21,9 @@ Person(support, "Service & Support", "A internal role supporting our users and c
 /' Systems '/
 
 !unquoted procedure ALS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-System(ALS, "Adaptive Learning System", "The main learning system allowing students to learn subjects interactively.")
+System(ALS, "Adaptive Learning System", "System" "The main learning system allowing students to learn subjects interactively.")
 !endprocedure
 
 !unquoted procedure CCS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-System(CCS, "Content Creation System", "Tools and Applications that allow content authoring and publishing to a content store.")
+System(CCS, "Content Creation System", "System", "Tools and Applications that allow content authoring and publishing to a content store.")
 !endprocedure
