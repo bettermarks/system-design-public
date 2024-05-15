@@ -1,3 +1,11 @@
 /' include of C4 libaries '/
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+/' Persons '/
+/' Predefined Persons to be used in other PlantUMLs '/
+/' teacher(teacher, "") '/
+
+!unquoted procedure teacher($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Person_Ext(teacher, "Teacher", "A teacher using the adaptive learning system.")
+!endprocedure
