@@ -19,3 +19,7 @@ Person(support, "Service & Support", "A internal role supporting our users and c
 !endprocedure
 
 /' Systems '/
+
+!unquoted procedure ALS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System(ALS, "Adaptive Learning System", "The main learning system allowing students to learn subjects interactively.")
+!endprocedure
