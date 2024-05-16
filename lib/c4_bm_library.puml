@@ -9,18 +9,18 @@
 /' support(,) '/
 
 !unquoted procedure teacher($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Person_Ext(teacher, "Teacher", "A teacher using the adaptive learning system.")
+Person_Ext($alias, "Teacher", "A teacher using the adaptive learning system.")
 !endprocedure
 !unquoted procedure student($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Person_Ext(student, "Student", "A student using the adaptive learning system.")
+Person_Ext($alias, "Student", "A student using the adaptive learning system.")
 !endprocedure
 !unquoted procedure support($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Person(support, "Service & Support", "A internal role supporting our users and customers.")
+Person($alias, "Service & Support", "A internal role supporting our users and customers.")
 !endprocedure
 
 /' Systems '/
 
 !unquoted procedure ALS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-System(ALS, "Adaptive Learning System", "System" "The main learning system allowing students to learn subjects interactively.")
+System($alias, "Adaptive Learning System", "System" "The main learning system allowing students to learn subjects interactively.")
 !endprocedure
 
