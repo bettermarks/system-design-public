@@ -18,6 +18,29 @@ Person_Ext($alias, "Student", "A student using the adaptive learning system.")
 Person($alias, "Service & Support", "A internal role supporting our users and customers.")
 !endprocedure
 
+' Systems
+' Predefined Systems to be used in other PlantUMLs
+
 !unquoted procedure ALS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
 System($alias, "Adaptive Learning System", "The main learning system allowing students to learn subjects interactively.")
+!endprocedure
+
+!unquoted procedure CCS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "Content Creation System", "Tools and Applications that allow content authoring and publishing to a content store.")
+!endprocedure
+
+!unquoted procedure NIA($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "Integration System", "The System handling authentication and making api adaptiomns that allow for integration with both internal and external identity and group providers.")
+!endprocedure
+
+!unquoted procedure DATA($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "Learning Analytics System", "The Collection of systems and tools providingstandard and self service reporting on interactions in the bettermarks platform.")
+!endprocedure
+
+!unquoted procedure CULM($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "Customer & User Lifecycle Management System", "Tools and Applications that helps to manage and interact with users and customers during their lifecycle at bettermarks.")
+!endprocedure
+
+!unquoted procedure EIDM($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System_Ext($alias, "Integration Partner System", "An external entity that provides user identity and/or user/group management services.")
 !endprocedure
