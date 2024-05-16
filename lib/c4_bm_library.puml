@@ -11,11 +11,11 @@
 !unquoted procedure $teacher($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
 Person_Ext($alias, "Teacher", "A teacher using the adaptive learning system.")
 !endprocedure
-!unquoted procedure student($student_alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Person_Ext($student_alias, "Student", "A student using the adaptive learning system.")
+!unquoted procedure $student($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Person_Ext($alias, "Student", "A student using the adaptive learning system.")
 !endprocedure
-!unquoted procedure support($support_alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Person($support_alias, "Service & Support", "A internal role supporting our users and customers.")
+!unquoted procedure $support($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Person($alias, "Service & Support", "A internal role supporting our users and customers.")
 !endprocedure
 
 
