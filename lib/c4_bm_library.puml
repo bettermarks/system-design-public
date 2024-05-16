@@ -18,8 +18,8 @@ Person_Ext($alias, "Student", "A student using the adaptive learning system.")
 Person($alias, "Service & Support", "A internal role supporting our users and customers.")
 !endprocedure
 
-' Systems
-' Predefined Systems to be used in other PlantUMLs
+/' Systems '/
+/' Predefined Systems to be used in other PlantUMLs '/
 
 !unquoted procedure ALS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
 System($alias, "Adaptive Learning System", "The main learning system allowing students to learn subjects interactively.")
