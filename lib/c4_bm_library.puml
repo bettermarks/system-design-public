@@ -8,14 +8,14 @@
 /' student(,) '/
 /' support(,) '/
 
-!unquoted procedure teacher($teacher_alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+!unquoted procedure teacher($teacher_alias)
 Person_Ext($teacher_alias, "Teacher", "A teacher using the adaptive learning system.")
 !endprocedure
-!unquoted procedure student($student_alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+!unquoted procedure student($student_alias)
 Person_Ext($student_alias, "Student", "A student using the adaptive learning system.")
 !endprocedure
-!unquoted procedure support($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Person($alias, "Service & Support", "A internal role supporting our users and customers.")
+!unquoted procedure support($support_alias)
+Person($support_alias, "Service & Support", "A internal role supporting our users and customers.")
 !endprocedure
 
 
