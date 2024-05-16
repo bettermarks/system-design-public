@@ -8,7 +8,7 @@
 /' student(,) '/
 /' support(,) '/
 
-!unquoted procedure teacher1($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+!unquoted procedure teacher($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
 Person_Ext(teacher, "Teacher", "A teacher using the adaptive learning system.")
 !endprocedure
 !unquoted procedure student($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
