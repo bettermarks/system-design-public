@@ -2,6 +2,11 @@
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
 
+/' Link Color white '/
+skinparam {
+  HyperlinkColor #ffffff
+}
+
 /' Persons '/
 /' Predefined Persons to be used in other PlantUMLs '/
 /' teacher(,) '/
