@@ -22,7 +22,7 @@ Person($alias, "Service & Support", "A internal role supporting our users and cu
 /' Predefined Systems to be used in other PlantUMLs '/
 
 !unquoted procedure ALS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-System($alias, "Adaptive Learning System", "The main learning system allowing students to learn subjects interactively.")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/937361479/5.1+Adaptive+Learning+System Confluence Adaptive Learning System]]", "The main learning system allowing students to learn subjects interactively.")
 !endprocedure
 
 !unquoted procedure CCS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
