@@ -49,3 +49,44 @@ System($alias, "Customer & User Lifecycle Management System", "Tools and Applica
 !unquoted procedure EIDM($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
 System_Ext($alias, "Integration Partner System", "An external entity that provides user identity and/or user/group management services.")
 !endprocedure
+
+/' Containers in the Systems of bettermarks '/
+
+/' Container in CULM '/
+/' Predefined Container in the CULM Domain to be used in other PlantUMLs '/
+
+!unquoted procedure GLU($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container($alias, "GLU Planned", "Container", "Provides IDM and User/Group Management to the User and Service & Support.")
+!endprocedure
+
+!unquoted procedure Licensing($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container($alias, "Licensing", "Component", "rovides the client application with licenses related to products and entities within the hierarchy (groups).")
+!endprocedure
+
+!unquoted procedure LicensingShop($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container($alias, "Licensing Shop", "Component", "Provides the shop service to purchase licenses with the client application.")
+!endprocedure
+
+!unquoted procedure Website($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container_Ext($alias, "Website", "Wordpress | Raidboxes", "Delivers the static content and provides several forms to contact internal roles.")
+!endprocedure
+
+!unquoted procedure Email($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container_Ext($alias, "Email Application", "Microsoft 365", "The Microsoft e-mail system.")
+!endprocedure
+
+!unquoted procedure Helpdesk($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container_Ext($alias, "Zammad", "Helpdesk SaaS", "Provides a ticket system and a helpdesk for Service&Support.")
+!endprocedure
+
+!unquoted procedure CRM($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container_Ext($alias, "1CRM", "CRM SaaS", "Application to manage and cummunicate with customers.")
+!endprocedure
+
+!unquoted procedure Brevo($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container_Ext($alias, "Brevo", "Email SaaS", "Email Service for Campaigns, Transactional Emails and CRM functionalities.")
+!endprocedure
+
+!unquoted procedure VOIP($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container_Ext($alias, "Placetel",  "VOIP SaaS", "Provides a Voice over IP Phone Service to contact Teachers and Customers.")
+!endprocedure
