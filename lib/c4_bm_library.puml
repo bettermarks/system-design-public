@@ -67,6 +67,10 @@ Container($alias, "Licensing", "Component", "rovides the client application with
 Container($alias, "Licensing Shop", "Component", "Provides the shop service to purchase licenses with the client application.")
 !endprocedure
 
+!unquoted procedure Mapping($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container($alias, "Mapping Service", "Container", "Provides a Service to map internal and external IDs within bettermarks.")
+!endprocedure
+
 !unquoted procedure Website($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
 Container_Ext($alias, "Website", "Wordpress | Raidboxes", "Delivers the static content and provides several forms to contact internal roles.")
 !endprocedure
