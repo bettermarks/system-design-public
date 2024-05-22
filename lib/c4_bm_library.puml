@@ -60,7 +60,7 @@ Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages
 !endprocedure
 
 !unquoted procedure Licensing($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1470431242/5.3.2+Licensing Licensing]]", "Component", "rovides the client application with licenses related to products and entities within the hierarchy (groups).")
+Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1470431242/5.3.2+Licensing Licensing]]", "Component", "provides the client application with licenses related to products and entities within the hierarchy (groups).")
 !endprocedure
 
 !unquoted procedure LicensingShop($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
