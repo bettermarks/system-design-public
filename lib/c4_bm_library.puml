@@ -9,9 +9,6 @@ skinparam {
 
 /' Persons '/
 /' Predefined Persons to be used in other PlantUMLs '/
-/' teacher(,) '/
-/' student(,) '/
-/' support(,) '/
 
 !unquoted procedure Teacher($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
 Person_Ext($alias, "Teacher", "A teacher using the adaptive learning system.")
@@ -21,6 +18,9 @@ Person_Ext($alias, "Student", "A student using the adaptive learning system.")
 !endprocedure
 !unquoted procedure Support($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
 Person($alias, "Service & Support", "A internal role supporting our users and customers.")
+!endprocedure
+!unquoted procedure Content($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Person($alias, "Content manager", "A internal role in Marketing writing and concepting content.")
 !endprocedure
 
 /' Systems '/
