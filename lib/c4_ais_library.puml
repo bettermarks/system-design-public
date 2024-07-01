@@ -1,0 +1,66 @@
+/' include of C4 libaries '/
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+/' Link Color white '/
+skinparam {
+  HyperlinkColor #ffffff
+}
+
+/' Persons '/
+/' Predefined Persons to be used in other PlantUMLs '/
+
+!unquoted procedure Teacher($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Person_Ext($alias, "Lehrer:in", "Ein Lehrkraft an einer Schule, die die AIS nutzt.")
+!endprocedure
+!unquoted procedure Student($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Person_Ext($alias, "Schüler:in", "Eine Schüler:in an einer Schule, die die AIS nutzt.")
+!endprocedure
+!unquoted procedure Admin($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Person_Ext($alias, "Administrator:in", "Eine Administrator:in an einer Schule, die die AIS nutzt.")
+!endprocedure
+!unquoted procedure Author($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Person_Ext($alias, "Autor:in", "Ein Autor:in eines Medienerstellers, die die AIS nutzt.")
+!endprocedure
+!unquoted procedure Support($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Person($alias, "Service & Support", "Eine interne Rolle zur Unterstützung aller Nutzer und Kunden der AIS.")
+!endprocedure
+
+/' Systems '/
+/' Predefined Systems to be used in other PlantUMLs '/
+
+!unquoted procedure ALS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "Adaptives Lernsystem", "Das Hauptlernsystem, das Schüler:innen erlaubt intaraktiv zu lernen.")
+!endprocedure
+
+!unquoted procedure CCS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "Autorensystem", "Programme und Anwendungen, die zur Erstellung und Publikation von Lerninhalten in einem Marktplatz verwendet werden können.")
+!endprocedure
+
+!unquoted procedure NIA($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "Integrations System", "System zur Integration externen und interner IDPs.")
+!endprocedure
+
+!unquoted procedure DATA($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "Lern-Analyse-System", "Programme und Anwendungen, die zur Auswertung der Lerninteraction in der AIS verwendet werden können.")
+!endprocedure
+
+!unquoted procedure MP($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "Marktplatz", "Ein Marktplatz zur Suche und Buchung von Lerninhalten.")
+!endprocedure
+
+!unquoted procedure CULM($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "Customer & User Lifecycle Management System", "Programme und Anwendungen, die zur Verwaltung ung Interaction mit Nutzern und Kunden genutzt werden können.")
+!endprocedure
+
+!unquoted procedure EIDM($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System_Ext($alias, "Integriertes Partner System", "Ein externes System das als IDP und/oder Gruppen Management integriert wurde.")
+!endprocedure
+
+!unquoted procedure EMD($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System_Ext($alias, "Externe Meta Daten", "Ein externes System zur Bereitstellung von META Informationen auf Lerninhalte.")
+!endprocedure
+
+!unquoted procedure ELIB($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System_Ext($alias, "Externe Bibliothek für Lerninhalte", "Ein externes System zur Bereitstellung von META Informationen auf Lerninhalte.")
+!endprocedure
