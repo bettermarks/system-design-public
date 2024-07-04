@@ -50,7 +50,7 @@ System($alias, "Marktplatz", "Ein Marktplatz zur Suche und Buchung von Lerninhal
 !endprocedure
 
 !unquoted procedure CULM($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-System($alias, "Customer & User Lifecycle Management System", "Programme und Anwendungen, die zur Verwaltung ung Interaction mit Nutzern und Kunden genutzt werden können.")
+System($alias, "Nutzer- und Gruppenverwaltungssystem", "")
 !endprocedure
 
 !unquoted procedure EIDM($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
