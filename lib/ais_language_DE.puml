@@ -55,6 +55,10 @@ skinparam {
 !$system_culm_type = "System"
 !$system_culm_desc = "System das als IDP und/oder Gruppen Management agiert."
 
+!$system_cumgmt_label = "Kundenbetreuungssystem"
+!$system_cumgmt_type = "System"
+!$system_cumgmt_desc = "System zur Unterstützung von Kunden und Nutzerbedürfnissen."
+
 !$system_eidm_label = "Integriertes Partner System"
 !$system_eidm_type = "System"
 !$system_eidm_desc = "Ein externes System das als IDP und/oder Gruppen Management integriert wurde."
