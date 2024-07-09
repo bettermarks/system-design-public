@@ -1,0 +1,125 @@
+/' include of C4 libaries '/
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+/' Link Color white '/
+skinparam {
+  HyperlinkColor #ffffff
+}
+
+/' language german (de) '/
+
+/' Roles '/
+
+!$role_author_label = "Autor:in"
+!$role_author_desc = "Eine Autor:in eines Medienanbieters, der die AIS nutzt."
+
+!$role_admin_label = "Administrator:in"
+!$role_admin_desc = "Eine Administrator:in an einer Schule, die die AIS nutzt."
+
+!$role_teacher_label = "Lehrer:in"
+!$role_teacher_desc = "Eine Lehrkraft an einer Schule, die die AIS nutzt."
+
+!$role_student_label = "Schüler:in"
+!$role_student_desc = "Eine Schüler:in an einer Schule, die die AIS nutzt."
+
+/' Platform '/
+
+!$platform_ais_label = "AIS Plattform"
+!$platform_ais_type = "Plattform"
+!$platform_ais_desc = "Adaptives Intelligentes System"
+
+/' Systems '/
+
+!$system_als_label = "Adaptives Lernsystem"
+!$system_als_type = "System"
+!$system_als_desc = "Das Hauptlernsystem, das Schüler:innen erlaubt interaktiv zu lernen."
+
+!$system_as_label = "Autorensystem"
+!$system_as_type = "System"
+!$system_as_desc = "Programme und Anwendungen, die zur Erstellung und Publikation von Lerninhalten in einem Marktplatz verwendet werden können."
+
+!$system_nia_label = "Integrationssystem"
+!$system_nia_type = "System"
+!$system_nia_desc = "System zur Integration externen und interner IDPs."
+
+!$system_data_label = "Lern-Analyse-System"
+!$system_data_type = "System"
+!$system_data_desc = "Programme und Anwendungen, die zur Auswertung der Lerninteraction in der AIS verwendet werden können."
+
+!$system_mp_label = "Marktplatz"
+!$system_mp_type = "System"
+!$system_mp_desc = "Ein Marktplatz zur Suche und Buchung von Lernprodukten."
+
+!$system_culm_label = "Nutzer- und Gruppenverwaltungssystem"
+!$system_culm_type = "System"
+!$system_culm_desc = "System das als IDP und/oder Gruppen Management agiert."
+
+!$system_eidm_label = "Integriertes Partner System"
+!$system_eidm_type = "System"
+!$system_eidm_desc = "Ein externes System das als IDP und/oder Gruppen Management integriert wurde."
+
+!$system_emd_label = "Externe Meta Daten"
+!$system_emd_type = "System"
+!$system_emd_desc = "Ein externes System zur Bereitstellung von META Informationen auf Lerninhalte."
+
+!$system_elib_label = "Externe Bibliothek für Lerninhalte"
+!$system_elib_type = "System"
+!$system_elib_desc = "Ein externes System zur Bereitstellung von META Informationen auf Lerninhalte."
+
+/' Components '/
+
+!$component_authorui_label = "Autoren Tool"
+!$component_authorui_type = "GUI"
+!$component_authorui_desc = "Hier erstellt ein Autor Inhalte, weisst sie Taxonomien zu und packatiert sie zu Inhaltlichen Paketen."
+
+!$component_ccs_label = "Content Pipeline"
+!$component_ccs_type = "Service"
+!$component_ccs_desc = "Persistenz der Lerninhalte für Autoren und Workflow zum Ausliefern der Inhalte an das Adaptive Lernsystem."
+
+!$component_publishertool_label = "Publisher Tool"
+!$component_publishertool_type = "GUI"
+!$component_publishertool_desc = "Hier erstellt der Autor Produkte mit entsprechenden Metainformationen und Preismodell."
+
+!$component_productmgmt_label = "Produkt Management"
+!$component_productmgmt_type = "Service"
+!$component_productmgmt_desc = "Hier sind alle Produktinformationen pro Anbieter hinterlegt. Produkte sind mit einem Lerninhalt-Paket in einer bestimmten Version verknüpft."
+
+!$component_productcatalog_label = "Produkt Katalog"
+!$component_productcatalog_type = "Service"
+!$component_productcatalog_desc = "Kann die aktiven Produkte mit Preisen anzeigen und in einem Checkout Prozess verkaufen."
+
+!$component_shop_label = "License Shop"
+!$component_shop_type = "Service"
+!$component_shop_desc = "Checkout zum Verkaufen von Produktkonfigurationen, Erstellen von Rechnungen und Buchen der entsprechenden Lizenzen."
+
+!$component_licensing_label = "Licensing"
+!$component_productcatalog_type = "Service"
+!$component_productcatalog_desc = "Verwaltet Lizenzen und die Nutzung der Lizenzsitze."
+
+!$component_billing_label = "Abrechnung"
+!$component_shop_type = "Service"
+!$component_shop_desc = "Gibt Statistiken zu Verkäufen aus und rechnet die Partnerverkäufe der AIS ab."
+
+!$component_ac_label = "Schuladministration"
+!$component_ac_type = "GUI"
+!$component_ac_desc = "Oberfläche für Schuladministratoren und Lehrer zur Administration von Klassen und Schüler:innen."
+
+!$component_backoffice_label = "Backoffice"
+!$component_backoffice_type = "GUI"
+!$component_backoffice_desc = "Oberfläche für Administratoren des Gesamtsystems."
+
+!$component_usermgmt_label = "IDP und Nutzer-Management"
+!$component_usermgmt_type = "Service"
+!$component_usermgmt_desc = "Verantwortlich für die Nutzerdaten und deren Rollen und für Authentifizierungsprozesse."
+
+!$component_groupmgmt_label = "Gruppen-Management"
+!$component_groupmgmt_type = "Service"
+!$component_groupmgmt_desc = "Verwaltung des Gruppenmanagement wie Klassen, Schulen oder Medienanbietern."
+
+/' Relations '/
+
+/' System Relations '/
+
+/' Component Relations '/
+
