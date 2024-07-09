@@ -121,5 +121,36 @@ skinparam {
 
 /' System Relations '/
 
+!$Rel_ALS_NIA = "ist verknüpft mit einem IDP (identity provider) und user / group managment by"
+!$Rel_ALS_DATA = "konsumiert Daten-Events"
+!$Rel_CCS_ALS = "veröffentlicht adaptive Lerninhalte"
+!$Rel_DATA_CULM = "holt sich Nutzer- und Gruppeninformationen"
+!$Rel_NIA_EIDM = "integriert IDP, Nutzer und Gruppenverwaltung"
+!$Rel_NIA_CULM = "integriert IDP, Nutzer und Gruppenverwaltung"
+!$Rel_EMD_CCS = ""
+!$Rel_ELIB_CCS = ""
+
 /' Component Relations '/
 
+!$Rel_Admin_CULMUI = "administriert die eigene Schule"
+!$Rel_Teacher_CULMUI = "administriert die eigene Klasse"
+!$Rel_CULM_UI_UserMgmt = "verändert Nutzerdaten"
+!$Rel_CULM_UI_GroupMgmt = "verändert Gruppenzuordnungen"
+!$Rel_Author_AuthorUI = "verändert adaptive Lerninhalte und verknüpft sie mit Produkten"
+!$Rel_Author_PublisherTool = "erstellt verkaufbare Produkte und veröffentlicht Produkte im Produktkatalog"
+!$Rel_AuthorUI_CCS = "verändert adaptive Lerninhalte und verknüpft sie mit Produkten"
+!$Rel_AuthorUI_ProductMgmt = "bezieht aktive und geplante Produkte"
+!$Rel_PublisherTool_ProductMgmt = "veröffentlicht Produkt im Produktkatalog und Lerninhalte im Katalog"
+!$Rel_PublisherTool_CCS = "triggert die Veröffentlichung der Lerninhalte"
+!$Rel_PublisherTool_Billing = "ruft aktuelle Abrechnungen und Reporting ab"
+!$Rel_PublisherTool_GroupMgmt = "pflegt Stammdaten des Medienanbieters"
+!$Rel_ProductMgmt_ProductCatalog = "veröffentlicht Produkte im Produktkatalog"
+!$Rel_ProductCatalog_Shop = "übergibt ausgewähltes Produkt zur Konfiguration (Lizenz) und Verkauf"
+!$Rel_Shop_Licensing = "erstellt und verändert Lizenzen"
+!$Rel_Billing_Shop = "holt sich aktuelle Verkaufszahlen"
+!$Rel_Teacher_Shop = "kann Produkte/Lerninhalte kaufen"
+!$Rel_Teacher_ALS = "kann Lerninhalte zuweisen"
+!$Rel_Student_ALS = "kann Lerninhalte nutzen und üben"
+!$Rel_Backoffice_UI_UserMgmt = "verändert Nutzerdaten"
+!$Rel_Backoffice_UI_GroupMgmt = "verändert Gruppenzuordnungen"
+!$Rel_ALS_Licensing = "Abfrage zu Produktberechtigungen"
