@@ -94,12 +94,12 @@ skinparam {
 !$component_shop_desc = "Checkout zum Verkaufen von Produktkonfigurationen, Erstellen von Rechnungen und Buchen der entsprechenden Lizenzen."
 
 !$component_licensing_label = "Licensing"
-!$component_productcatalog_type = "Service"
-!$component_productcatalog_desc = "Verwaltet Lizenzen und die Nutzung der Lizenzsitze."
+!$component_licensing_type = "Service"
+!$component_licensing_desc = "Verwaltet Lizenzen und die Nutzung der Lizenzsitze."
 
 !$component_billing_label = "Abrechnung"
-!$component_shop_type = "Service"
-!$component_shop_desc = "Gibt Statistiken zu Verkäufen aus und rechnet die Partnerverkäufe der AIS ab."
+!$component_billing_type = "Service"
+!$component_billing_desc = "Gibt Statistiken zu Verkäufen aus und rechnet die Partnerverkäufe der AIS ab."
 
 !$component_ac_label = "Schuladministration"
 !$component_ac_type = "GUI"
