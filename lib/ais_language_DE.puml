@@ -127,9 +127,9 @@ skinparam {
 !$Rel_Teacher_ALS = "weist Lerninhalte zu und wertet aus welche Bedürfnisse der Schüler hat"
 !$Rel_Student_ALS = "kann Lerninhalte nutzen und sieht seine Wissenslücken"
 !$Rel_Teacher_MP = "lizensiert/kauft Produkte"
-!$Rel_AS_MP = "Lerninhalte werden veröffentlicht"),
-!$Rel_ALS_MP = "überprüft Lizenzen")
-!$Rel_Author_AS = "erstellt adaptive Lerninhalte")
+!$Rel_AS_MP = "Lerninhalte werden veröffentlicht"
+!$Rel_ALS_MP = "überprüft Lizenzen"
+!$Rel_Author_AS = "erstellt adaptive Lerninhalte"
 !$Rel_ALS_NIA = "ist verknüpft mit einem IDP (identity provider) und user / group managment by"
 !$Rel_ALS_DATA = "konsumiert Daten-Events"
 !$Rel_AS_ALS = "veröffentlicht adaptive Lerninhalte"
