@@ -121,14 +121,23 @@ skinparam {
 
 /' System Relations '/
 
+!$Rel_Admin_CULM = "administriert die eigene Schule"
+!$Rel_Admin_DATA = ""
+!$Rel_Teacher_CULM = "administriert die eigene Klasse"
+!$Rel_Teacher_ALS = "weist Lerninhalte zu und wertet aus welche Bedürfnisse der Schüler hat"
+!$Rel_Student_ALS = "kann Lerninhalte nutzen und sieht seine Wissenslücken"
+!$Rel_Teacher_MP = "lizensiert/kauft Produkte"
+!$Rel_AS_MP = "Lerninhalte werden veröffentlicht"),
+!$Rel_ALS_MP = "überprüft Lizenzen")
+!$Rel_Author_AS = "erstellt adaptive Lerninhalte")
 !$Rel_ALS_NIA = "ist verknüpft mit einem IDP (identity provider) und user / group managment by"
 !$Rel_ALS_DATA = "konsumiert Daten-Events"
-!$Rel_CCS_ALS = "veröffentlicht adaptive Lerninhalte"
+!$Rel_AS_ALS = "veröffentlicht adaptive Lerninhalte"
 !$Rel_DATA_CULM = "holt sich Nutzer- und Gruppeninformationen"
 !$Rel_NIA_EIDM = "integriert IDP, Nutzer und Gruppenverwaltung"
 !$Rel_NIA_CULM = "integriert IDP, Nutzer und Gruppenverwaltung"
-!$Rel_EMD_CCS = ""
-!$Rel_ELIB_CCS = ""
+!$Rel_EMD_AS = ""
+!$Rel_ELIB_AS = ""
 
 /' Component Relations '/
 
