@@ -92,5 +92,5 @@ Container_Ext($alias, "Brevo", "Email SaaS", "Email Service for Campaigns, Trans
 !endprocedure
 
 !unquoted procedure VOIP($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Container_Ext($alias, "Placetel",  "VOIP SaaS", "Provides a Voice over IP Phone Service to contact Teachers and Customers.")
+Container_Ext($alias, "Sipgate",  "VOIP SaaS", "Provides a Voice over IP Phone Service to contact Teachers and Customers.")
 !endprocedure
