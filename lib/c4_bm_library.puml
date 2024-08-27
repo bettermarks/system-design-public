@@ -79,6 +79,10 @@ Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages
 Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1470595073/5.3.3+Licensing+Shop Licensing Shop]]", "Component", "Provides the shop service to purchase licenses with the client application.")
 !endprocedure
 
+!unquoted procedure BO($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1470595073/5.3.3+Licensing+Shop Backoffice]]", "Component", "Provides the UI to administrates Components within UGM.")
+!endprocedure
+
 !unquoted procedure Website($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
 Container_Ext($alias, "Website", "Wordpress | Raidboxes", "Delivers the static content and provides several forms to contact internal roles.")
 !endprocedure
