@@ -80,11 +80,11 @@ Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages
 !endprocedure
 
 !unquoted procedure BO($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1470595073/5.3.3+Licensing+Shop Backoffice]]", "Component", "Provides the UI to administrates Components within UGM.")
+Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1640759344/5.3.4+Backoffice Backoffice]]", "Component", "Provides the UI to administrates Components within UGM.")
 !endprocedure
 
 !unquoted procedure Website($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Container_Ext($alias, "Website", "Wordpress | Raidboxes", "Delivers the static content and provides several forms to contact internal roles.")
+Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1483767809/5.3.9+Website Website]]", "Wordpress | Raidboxes", "Delivers the static content and provides several forms to contact internal roles.")
 !endprocedure
 
 /' Container in CM '/
@@ -95,19 +95,15 @@ Container_Ext($alias, "Email Application", "Microsoft 365", "The Microsoft e-mai
 !endprocedure
 
 !unquoted procedure Helpdesk($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Container_Ext($alias, "Zammad", "Helpdesk SaaS", "Provides a ticket system and a helpdesk for Service&Support.")
-!endprocedure
-
-!unquoted procedure CRM($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Container_Ext($alias, "1CRM", "CRM SaaS", "Application to manage and cummunicate with customers.")
+Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1475837974/5.4.1+Helpdesk Zammad]]", "Helpdesk SaaS", "Provides a ticket system and a helpdesk for Service&Support.")
 !endprocedure
 
 !unquoted procedure Brevo($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Container_Ext($alias, "Brevo", "Email SaaS", "Email Service for Campaigns, Transactional Emails and CRM functionalities.")
+Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1482227723/5.4.2+Brevo Brevo]]", "Email SaaS", "Email Service for Campaigns, Transactional Emails and CRM functionalities.")
 !endprocedure
 
 !unquoted procedure VOIP($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Container_Ext($alias, "Sipgate",  "VOIP SaaS", "Provides a Voice over IP Phone Service to contact Teachers and Customers.")
+Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1482555405/5.4.3+VOIP+Phone+Fax Sipgate]]",  "VOIP SaaS", "Provides a Voice over IP Phone Service to contact Teachers and Customers.")
 !endprocedure
 
 /' Container in INTEG '/
