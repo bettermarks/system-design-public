@@ -35,6 +35,10 @@ System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/96
 !endprocedure
 
 !unquoted procedure NIA($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/936771705/5.2+Integration+System Integration System (NIA old)]]", "The System handling authentication and making api adaptiomns that allow for integration with both internal and external identity and group providers.")
+!endprocedure
+
+!unquoted procedure INT($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
 System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/936771705/5.2+Integration+System Integration System]]", "The System handling authentication and making api adaptiomns that allow for integration with both internal and external identity and group providers.")
 !endprocedure
 
@@ -43,7 +47,15 @@ System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/94
 !endprocedure
 
 !unquoted procedure CULM($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/969343005/5.3+Customer+User+Lifecycle+Management+System Customer & User Lifecycle Management System]]", "Tools and Applications that helps to manage and interact with users and customers during their lifecycle at bettermarks.")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/969343005/5.3+Customer+User+Lifecycle+Management+System Customer & User Lifecycle Management System (CULM old)]]", "Tools and Applications that helps to manage and interact with users and customers during their lifecycle at bettermarks.")
+!endprocedure
+
+!unquoted procedure UGM($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/969343005/5.3+User+Group+Management+System User & Group Management System]]", "Tools and Applications that helps to manage users, groups, organizations and licenses within our core platform.")
+!endprocedure
+
+!unquoted procedure CM($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1641807874/5.4+Customer+Management+System Customer Management System]]", "Tools and Applications that helps to manage and interact with customers during their lifecycle at bettermarks.")
 !endprocedure
 
 !unquoted procedure EIDM($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
@@ -52,8 +64,8 @@ System_Ext($alias, "Integration Partner System", "An external entity that provid
 
 /' Containers in the Systems of bettermarks '/
 
-/' Container in CULM '/
-/' Predefined Container in the CULM Domain to be used in other PlantUMLs '/
+/' Container in UGM '/
+/' Predefined Container in the UGM System to be used in other PlantUMLs '/
 
 !unquoted procedure GLU($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
 Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1469972495/5.3.1+GLU GLU]]", "Container", "Provides IDM and User/Group Management to the User and Service & Support.")
@@ -67,13 +79,12 @@ Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages
 Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1470595073/5.3.3+Licensing+Shop Licensing Shop]]", "Component", "Provides the shop service to purchase licenses with the client application.")
 !endprocedure
 
-!unquoted procedure Mapping($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Container($alias, "Mapping Service", "Container", "Provides a Service to map internal and external IDs within bettermarks.")
-!endprocedure
-
 !unquoted procedure Website($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
 Container_Ext($alias, "Website", "Wordpress | Raidboxes", "Delivers the static content and provides several forms to contact internal roles.")
 !endprocedure
+
+/' Container in CM '/
+/' Predefined Container in the CM System to be used in other PlantUMLs '/
 
 !unquoted procedure Email($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
 Container_Ext($alias, "Email Application", "Microsoft 365", "The Microsoft e-mail system.")
@@ -94,3 +105,12 @@ Container_Ext($alias, "Brevo", "Email SaaS", "Email Service for Campaigns, Trans
 !unquoted procedure VOIP($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
 Container_Ext($alias, "Sipgate",  "VOIP SaaS", "Provides a Voice over IP Phone Service to contact Teachers and Customers.")
 !endprocedure
+
+/' Container in INT '/
+/' Predefined Container in the INT System to be used in other PlantUMLs '/
+
+!unquoted procedure Mapping($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container($alias, "Mapping Service", "Container", "Provides a Service to map internal and external IDs within bettermarks.")
+!endprocedure
+
+
