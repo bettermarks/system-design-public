@@ -38,7 +38,7 @@ System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/96
 System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/936771705/5.2+Integration+System Integration System (NIA old)]]", "The System handling authentication and making api adaptiomns that allow for integration with both internal and external identity and group providers.")
 !endprocedure
 
-!unquoted procedure INT($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+!unquoted procedure INTEG($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
 System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/936771705/5.2+Integration+System Integration System]]", "The System handling authentication and making api adaptiomns that allow for integration with both internal and external identity and group providers.")
 !endprocedure
 
@@ -106,8 +106,8 @@ Container_Ext($alias, "Brevo", "Email SaaS", "Email Service for Campaigns, Trans
 Container_Ext($alias, "Sipgate",  "VOIP SaaS", "Provides a Voice over IP Phone Service to contact Teachers and Customers.")
 !endprocedure
 
-/' Container in INT '/
-/' Predefined Container in the INT System to be used in other PlantUMLs '/
+/' Container in INTEG '/
+/' Predefined Container in the INTEG System to be used in other PlantUMLs '/
 
 !unquoted procedure Mapping($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
 Container($alias, "Mapping Service", "Container", "Provides a Service to map internal and external IDs within bettermarks.")
