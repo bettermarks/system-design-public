@@ -106,6 +106,10 @@ Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/p
 Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1482555405/5.4.3+VOIP+Phone+Fax Sipgate]]",  "VOIP SaaS", "Provides a Voice over IP Phone Service to contact Teachers and Customers.")
 !endprocedure
 
+!unquoted procedure Datev($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container_Ext($alias, "DATEV", "Financial SaaS", "Financial Service for booking invoices and control incoming payments.")
+!endprocedure
+
 /' Container in INTEG '/
 /' Predefined Container in the INTEG System to be used in other PlantUMLs '/
 
