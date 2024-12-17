@@ -7,6 +7,9 @@ skinparam {
   HyperlinkColor #ffffff
 }
 
+AddRelTag("future", $textColor="green", $lineColor="green")
+AddElementTag("future", $borderColor="green", $fontColor="green", $bgColor="palegreen")
+
 /' Persons '/
 /' Predefined Persons to be used in other PlantUMLs '/
 
