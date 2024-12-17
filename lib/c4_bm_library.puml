@@ -113,8 +113,22 @@ Container_Ext($alias, "DATEV", "Financial SaaS", "Financial Service for booking 
 /' Container in INTEG '/
 /' Predefined Container in the INTEG System to be used in other PlantUMLs '/
 
-!unquoted procedure Mapping($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Container($alias, "Mapping Service", "Container", "Provides a Service to map internal and external IDs within bettermarks.")
+!unquoted procedure Authx($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1863450632/5.2.1+Authx]]", "Authx", "Service", "Is responsible for authentication/authorization using OpenID Connect.")
 !endprocedure
 
+!unquoted procedure Connector($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1863450644/5.2.2+Connector]]", "Connector", "Service", "Inside the Connector the different Adaptors for different Integration Parners are configured.")
+!endprocedure
 
+!unquoted procedure P14N($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1481932811/5.2.3+P14N]]", "Pseudonymization", "Service", "Provides a Service to map internal and external IDs within bettermarks.")
+!endprocedure
+
+!unquoted procedure DSR($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1863352337/5.2.5+DSR+Service]]", "Data Subject Request (DSR)", "Service", "GDPR based handling of data subject request from users.")
+!endprocedure
+
+!unquoted procedure ICON($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1863352347/5.2.6+Integration+Config]]", "Integration Config", "Service", "Providing all Integration Configurations for Partner Systems.")
+!endprocedure
