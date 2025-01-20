@@ -8,8 +8,8 @@ skinparam {
 }
 
 /' Color for future components '/
-AddRelTag("future", $textColor="green", $lineColor="green")
-AddElementTag("future", $borderColor="green", $fontColor="green", $bgColor="palegreen")
+AddRelTag(future, $textColor="green", $lineColor="green")
+AddSystemTag(future, $borderColor="green", $fontColor="green", $bgColor="palegreen")
 
 /' Persons '/
 /' Predefined Persons to be used in other PlantUMLs '/
@@ -17,12 +17,15 @@ AddElementTag("future", $borderColor="green", $fontColor="green", $bgColor="pale
 !unquoted procedure Teacher($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
 Person_Ext($alias, "Teacher", "A teacher using the adaptive learning system.")
 !endprocedure
+
 !unquoted procedure Student($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
 Person_Ext($alias, "Student", "A student using the adaptive learning system.")
 !endprocedure
+
 !unquoted procedure Support($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
 Person($alias, "Service & Support", "A internal role supporting our users and customers.")
 !endprocedure
+
 !unquoted procedure Content($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
 Person($alias, "Content manager", "A internal role in Marketing writing and concepting content.")
 !endprocedure
