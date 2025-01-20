@@ -9,7 +9,9 @@ skinparam {
 
 /' Color for future components '/
 AddRelTag(future, $textColor="green", $lineColor="green")
-AddSystemTag(future, $borderColor="green", $fontColor="green", $bgColor="palegreen")
+AddSystemTag(future, $bgColor="darkgreen")
+AddContainerTag(future, $bgColor="green")
+AddComponentTag(future, $bgColor="palegreen")
 
 /' Persons '/
 /' Predefined Persons to be used in other PlantUMLs '/
@@ -57,8 +59,8 @@ System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/94
 System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/968753212/5.6+Content+Creation+System Content Creation System]]", "Tools and Applications that allow content authoring and publishing to a content store.")
 !endprocedure
 
-!unquoted procedure MP($alias, $label, $descr="", $sprite="", $tags="future", $link="", $type="")
-System($alias, "Marketplace", "A Marketplace to buy licenses to make content available.")
+!unquoted procedure MP($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "Marketplace", "A Marketplace to buy licenses to make content available.", $tags="future")
 !endprocedure
 
 !unquoted procedure EIDM($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
