@@ -1,0 +1,134 @@
+/' include of C4 libaries '/
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+/' Link Color white '/
+skinparam {
+  HyperlinkColor #ffffff
+}
+
+/' Color for future components '/
+AddRelTag("future", $textColor="green", $lineColor="green")
+AddElementTag("future", $borderColor="green", $fontColor="green", $bgColor="palegreen")
+
+/' Persons '/
+/' Predefined Persons to be used in other PlantUMLs '/
+
+!unquoted procedure Teacher($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Person_Ext($alias, "Teacher", "A teacher using the adaptive learning system.")
+!endprocedure
+!unquoted procedure Student($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Person_Ext($alias, "Student", "A student using the adaptive learning system.")
+!endprocedure
+!unquoted procedure Support($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Person($alias, "Service & Support", "A internal role supporting our users and customers.")
+!endprocedure
+!unquoted procedure Content($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Person($alias, "Content manager", "A internal role in Marketing writing and concepting content.")
+!endprocedure
+
+/' Systems '/
+/' Predefined Systems to be used in other PlantUMLs '/
+
+!unquoted procedure ITTS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1906606081/5.1+Intelligent+Tutoring+and+Teaching+System Intelligent Tutoring and Teaching System]]", "The main learning system allowing students to learn subjects interactively.")
+!endprocedure
+
+!unquoted procedure INTEG($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/936771705/5.2+Integration+System Integration System]]", "The System handling authentication and making api adaptiomns that allow for integration with both internal and external identity and group providers.")
+!endprocedure
+
+!unquoted procedure UGM($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/969343005/5.3+User+Group+Management+System User & Group Management System]]", "Tools and Applications that helps to manage users, groups, organizations and licenses within our core platform.")
+!endprocedure
+
+!unquoted procedure CM($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1641807874/5.4+Customer+Management+System Customer Management System]]", "Tools and Applications that helps to manage and interact with customers during their lifecycle at bettermarks.")
+!endprocedure
+
+!unquoted procedure DATA($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/940703828/5.5+Learning+Analytics+Systems Learning Analytics System]]", "The Collection of systems and tools providingstandard and self service reporting on interactions in the bettermarks platform.")
+!endprocedure
+
+!unquoted procedure CCS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/968753212/5.6+Content+Creation+System Content Creation System]]", "Tools and Applications that allow content authoring and publishing to a content store.")
+!endprocedure
+
+!unquoted procedure MP($alias, $label, $descr="", $sprite="", $tags="future", $link="", $type="")
+System($alias, "Marketplace", "A Marketplace to buy licenses to make content available.")
+!endprocedure
+
+!unquoted procedure EIDM($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System_Ext($alias, "Integration Partner System", "An external entity that provides user identity and/or user/group management services.")
+!endprocedure
+
+/' Containers in the Systems of bettermarks '/
+
+/' Container in UGM '/
+/' Predefined Container in the UGM System to be used in other PlantUMLs '/
+
+!unquoted procedure GLU($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1469972495/5.3.1+GLU GLU]]", "Container", "Provides IDM and User/Group Management to the User and Service & Support.")
+!endprocedure
+
+!unquoted procedure Licensing($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1470431242/5.3.2+Licensing Licensing]]", "Component", "Provides the client application with licenses related to products and entities within the hierarchy (groups).")
+!endprocedure
+
+!unquoted procedure LicensingShop($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1470595073/5.3.3+Licensing+Shop Licensing Shop]]", "Component", "Provides the shop service to purchase licenses with the client application.")
+!endprocedure
+
+!unquoted procedure BO($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1640759344/5.3.4+Backoffice Backoffice]]", "Component", "Provides the UI to administrates Components within UGM.")
+!endprocedure
+
+!unquoted procedure Website($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1483767809/5.3.9+Website Website]]", "Wordpress | Raidboxes", "Delivers the static content and provides several forms to contact internal roles.")
+!endprocedure
+
+/' Container in CM '/
+/' Predefined Container in the CM System to be used in other PlantUMLs '/
+
+!unquoted procedure Email($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container_Ext($alias, "Email Application", "Microsoft 365", "The Microsoft e-mail system.")
+!endprocedure
+
+!unquoted procedure Helpdesk($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1475837974/5.4.1+Helpdesk Zammad]]", "Helpdesk SaaS", "Provides a ticket system and a helpdesk for Service&Support.")
+!endprocedure
+
+!unquoted procedure Brevo($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1482227723/5.4.2+Brevo Brevo]]", "Email SaaS", "Email Service for Campaigns, Transactional Emails and CRM functionalities.")
+!endprocedure
+
+!unquoted procedure VOIP($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1482555405/5.4.3+VOIP+Phone+Fax Sipgate]]",  "VOIP SaaS", "Provides a Voice over IP Phone Service to contact Teachers and Customers.")
+!endprocedure
+
+!unquoted procedure Datev($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container_Ext($alias, "DATEV", "Financial SaaS", "Financial Service for booking invoices and control incoming payments.")
+!endprocedure
+
+/' Container in INTEG '/
+/' Predefined Container in the INTEG System to be used in other PlantUMLs '/
+
+!unquoted procedure Authx($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1863450632/5.2.1+Authx Authx]]", "Service", "Is responsible for authentication/authorization using OpenID Connect.")
+!endprocedure
+
+!unquoted procedure Connector($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1863450644/5.2.2+Connector Connector]]", "Service", "Inside the Connector the different Adaptors for different Integration Parners are configured.")
+!endprocedure
+
+!unquoted procedure P14N($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1481932811/5.2.3+P14N Pseudonymization]]", "Service", "Provides a Service to map internal and external IDs within bettermarks.")
+!endprocedure
+
+!unquoted procedure DSR($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1863352337/5.2.5+DSR+Service Data Subject Request (DSR)]]", "Service", "GDPR based handling of data subject request from users.")
+!endprocedure
+
+!unquoted procedure ICP($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1863352347/5.2.6+Integration+Config Integration Config]]", "Service", "Providing all Integration Configurations for Partner Systems.")
+!endprocedure
