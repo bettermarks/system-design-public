@@ -104,7 +104,7 @@ Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/p
 !endprocedure
 
 !unquoted procedure Email($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1910439937/5.4.6+Email+Application Email Application]]",  "Microsoft 365"", "The Microsoft e-mail system.")
+Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1910439937/5.4.6+Email+Application Email Application]]",  "Microsoft 365", "The Microsoft e-mail system.")
 !endprocedure
 
 /' Container in INTEG '/
