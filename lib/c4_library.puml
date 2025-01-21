@@ -55,8 +55,8 @@ System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/16
 System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/940703828/5.5+Learning+Analytics+Systems Learning Analytics System]]", "The Collection of systems and tools providingstandard and self service reporting on interactions in the bettermarks platform.")
 !endprocedure
 
-!unquoted procedure CCS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/968753212/5.6+Content+Creation+System Content Creation System]]", "Tools and Applications that allow content authoring and publishing to a content store.")
+!unquoted procedure PS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/968753212/5.6+Publisher+System Publisher System]]", "Tools and Applications that allow content authoring and publishing.")
 !endprocedure
 
 !unquoted procedure MP($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
