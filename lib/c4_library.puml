@@ -141,3 +141,7 @@ Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages
 Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1470431242/5.7.2+Licensing Licensing]]", "Component", "Provides the client application with licenses related to products and entities within the hierarchy (groups).")
 !endprocedure
 
+!unquoted procedure Product($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1911062558/5.7.3+Product+Product Service]]", "Component", "Creates, changes and provides product informations to other services.", $tags)
+!endprocedure
+
