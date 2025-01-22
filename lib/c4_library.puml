@@ -26,11 +26,11 @@ Person_Ext($alias, "Student", "A student using the adaptive learning system.")
 !endprocedure
 
 !unquoted procedure ContentCreator($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Person_Ext($alias, "Student", "Publisher", "Responsible for creating learning material (content).")
+Person_Ext($alias, "Content Creator", "Role at a Publisher being responsible for creating learning material (content).")
 !endprocedure
 
 !unquoted procedure ProductManager($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Person_Ext($alias, "Product Manager", "Publisher", "Responsible for creating buyable products out of content.")
+Person_Ext($alias, "Product Manager", "Role at a Publisher being responsible for creating buyable products out of content.")
 !endprocedure
 
 /' internal Persons / Roles '/
@@ -39,7 +39,7 @@ Person($alias, "Service & Support", "A internal role supporting our users and cu
 !endprocedure
 
 !unquoted procedure Marketing($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Person($alias, "Marketing Manager (Content)", "A internal role in Marketing writing and concepting content.")
+Person($alias, "Marketing Manager", "A internal role in Marketing writing and concepting content.")
 !endprocedure
 
 /' Systems '/
