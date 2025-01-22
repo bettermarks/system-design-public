@@ -16,6 +16,7 @@ AddComponentTag(ComponentFuture, $bgColor="palegreen")
 /' Persons '/
 /' Predefined Persons to be used in other PlantUMLs '/
 
+/' external Persons / Roles'/
 !unquoted procedure Teacher($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
 Person_Ext($alias, "Teacher", "A teacher using the adaptive learning system.")
 !endprocedure
@@ -24,12 +25,21 @@ Person_Ext($alias, "Teacher", "A teacher using the adaptive learning system.")
 Person_Ext($alias, "Student", "A student using the adaptive learning system.")
 !endprocedure
 
+!unquoted procedure ContentCreator($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Person_Ext($alias, "Student", "Publisher", "Responsible for creating learning material (content).")
+!endprocedure
+
+!unquoted procedure ProductManager($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Person_Ext($alias, "Product Manager", "Publisher", "Responsible for creating buyable products out of content.")
+!endprocedure
+
+/' internal Persons / Roles '/
 !unquoted procedure Support($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
 Person($alias, "Service & Support", "A internal role supporting our users and customers.")
 !endprocedure
 
-!unquoted procedure Content($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Person($alias, "Content manager", "A internal role in Marketing writing and concepting content.")
+!unquoted procedure Marketing($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+Person($alias, "Marketing Manager (Content)", "A internal role in Marketing writing and concepting content.")
 !endprocedure
 
 /' Systems '/
