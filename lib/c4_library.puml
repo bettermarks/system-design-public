@@ -46,31 +46,31 @@ Person($alias, "Marketing Manager", "A internal role in Marketing writing and co
 /' Predefined Systems to be used in other PlantUMLs '/
 
 !unquoted procedure ITTS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1906606081/5.1+Intelligent+Tutoring+and+Teaching+System Intelligent Tutoring and Teaching System]]", "Provides the core Web application for teachers, learners, and administrators.")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1906606081/1+Intelligent+Tutoring+and+Teaching+System Intelligent Tutoring and Teaching System]]", "Provides the core Web application for teachers, learners, and administrators.")
 !endprocedure
 
 !unquoted procedure INTEG($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/936771705/5.2+Integration+System Integration System]]", "API’s, adapters and connective tissue to integrate external identity provider (IDP’s) and class management systems.")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/936771705/2+Integration+System Integration System]]", "API’s, adapters and connective tissue to integrate external identity provider (IDP’s) and class management systems.")
 !endprocedure
 
 !unquoted procedure UGM($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/969343005/5.3+User+Group+Management+System User & Group Management System]]", "Manages all users and their roles, groups, and access rights, and makes these centrally available to the application.")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/969343005/3+User+Group+Management+System User & Group Management System]]", "Manages all users and their roles, groups, and access rights, and makes these centrally available to the application.")
 !endprocedure
 
 !unquoted procedure CM($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1641807874/5.4+Customer+Management+System Customer Management System]]", "Provides applications to manage and support customers during their lifecycle.")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1641807874/4+Customer+Management+System Customer Management System]]", "Provides applications to manage and support customers during their lifecycle.")
 !endprocedure
 
 !unquoted procedure DATA($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/940703828/5.5+Learning+Analytics+Systems Learning Analytics System]]", "Stores and processes all learning and teaching events.")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/940703828/5+Learning+Analytics+Systems Learning Analytics System]]", "Stores and processes all learning and teaching events.")
 !endprocedure
 
 !unquoted procedure PS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/968753212/5.6+Publisher+System Publisher System]]", "Facilitates the creation, management, and publication of learning materials.")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/968753212/6+Publisher+System Publisher System]]", "Facilitates the creation, management, and publication of learning materials.")
 !endprocedure
 
 !unquoted procedure MP($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1908342785/5.7+Marketplace Marketplace]]", "Enables the selection and licensing of learning materials and manages licenses (including trial licenses).")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1908342785/7+Marketplace Marketplace]]", "Enables the selection and licensing of learning materials and manages licenses (including trial licenses).")
 !endprocedure
 
 !unquoted procedure EIDM($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
