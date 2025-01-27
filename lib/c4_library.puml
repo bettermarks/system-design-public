@@ -140,7 +140,7 @@ Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages
 !endprocedure
 
 !unquoted procedure DSR($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1863352337/5.2.5+DSR+Service Data Subject Request (DSR)]]", "Service", "GDPR based handling of data subject request from users.")
+Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1863352337/5.2.5+DSR+Service Data Subject Request (DSR)]]", "Service", "GDPR based handling of data subject request from users.", $tags=ContainerFuture)
 !endprocedure
 
 !unquoted procedure ICP($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
