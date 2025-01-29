@@ -79,13 +79,6 @@ System_Ext($alias, "Integration Partner System", "An external entity that provid
 
 /' Containers in the Systems of bettermarks '/
 
-/' Container in ITTS '/
-/' Predefined Container in the ITTS System to be used in other PlantUMLs '/
-
-!unquoted procedure XXX($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Container($alias, "[[https://de.bettermarks.com Example]]", "Container", "Description.")
-!endprocedure
-
 /' Container in UGM '/
 /' Predefined Container in the UGM System to be used in other PlantUMLs '/
 
@@ -161,4 +154,3 @@ Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages
 !unquoted procedure Product($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
 Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1911062558/5.7.3+Product+Service Product Service]]", "Component", "Creates, changes and provides product informations to other services.", $tags=ContainerFuture)
 !endprocedure
-
