@@ -65,8 +65,8 @@ System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/16
 System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/940703828/5+Learning+Analytics+Systems Learning Analytics System]]", "Stores and processes all learning and teaching events.")
 !endprocedure
 
-!unquoted procedure PS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/968753212/6+Publisher+System Publisher System]]", "Facilitates the creation, management, and publication of learning materials.")
+!unquoted procedure CCS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/968753212/6+Content+Creation+System Content Creation System]]", "Facilitates the creation, management, and publication of learning materials.")
 !endprocedure
 
 !unquoted procedure MP($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
