@@ -121,27 +121,27 @@ Container($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages
 /' Predefined Container in the CM System to be used in other PlantUMLs '/
 
 !unquoted procedure Helpdesk($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1475837974/6.1+Helpdesk]]", "Helpdesk SaaS", "Provides a ticket system and a helpdesk for Service&Support.")
+Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1475837974/6.1+Helpdesk Helpdesk]]", "Helpdesk SaaS", "Provides a ticket system and a helpdesk for Service&Support.")
 !endprocedure
 
 !unquoted procedure Brevo($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1482227723/6.2+Brevo]]", "CRM & Campainging SaaS", "Email Service for Campaigns, Transactional Emails and CRM functionalities.")
+Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1482227723/6.2+Brevo CRM & Emails]]", "CRM & Campainging SaaS", "Email Service for Campaigns, Transactional Emails and CRM functionalities.")
 !endprocedure
 
 !unquoted procedure FinSys($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1700102145/6.3+Financial+System]]", "Financial System", "Financial System for printing and booking invoices and control incoming payments.")
+Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1700102145/6.3+Financial+System Financial System]]", "", "Financial System for printing and booking invoices and control incoming payments.")
 !endprocedure
 
 !unquoted procedure Website($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1483767809/6.4+Website]]", "Wordpress | Raidboxes", "Delivers the static content and provides several forms to contact internal roles.")
+Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1483767809/6.4+Website Website]]", "Wordpress | Raidboxes", "Delivers the static content and provides several forms to contact internal roles.")
 !endprocedure
 
 !unquoted procedure VOIP($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1482555405/6.5+VOIP+Phone+Fax]]",  "VOIP SaaS", "Provides a Voice over IP Phone Service to contact Teachers and Customers.")
+Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1482555405/6.5+VOIP+Phone+Fax VOIP]]",  "VOIP SaaS", "Provides a Voice over IP Phone Service to contact Teachers and Customers.")
 !endprocedure
 
 !unquoted procedure Email($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1910439937/6.6+Email+Application]]",  "Microsoft 365", "The Microsoft e-mail system.")
+Container_Ext($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1910439937/6.6+Email+Application Email Service]]",  "Microsoft 365", "The Microsoft e-mail system.")
 !endprocedure
 
 /' Container in MP '/
