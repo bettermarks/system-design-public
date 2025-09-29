@@ -49,32 +49,32 @@ Person($alias, "Financing Manager", "An internal role in Finance writing and boo
 /' Systems '/
 /' Predefined Systems to be used in other PlantUMLs '/
 
-!unquoted procedure ITTS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1906606081/1+Intelligent+Tutoring+and+Teaching+System Intelligent Tutoring and Teaching System]]", "Provides the core Web application for teachers, learners, and administrators.")
+!unquoted procedure ITS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/ISMS/pages/2227666975/Intelligent+Tutoring+System Intelligent Tutoring System]]", "Provides the core Web application for teachers, learners, and administrators.")
 !endprocedure
 
-!unquoted procedure INTEG($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/936771705/2+Integration+System Integration System]]", "API’s, adapters and connective tissue to integrate external identity provider (IDP’s) and class management systems.")
+!unquoted procedure IS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/ISMS/pages/2227732481/Integration+System Integration System]]", "API’s, adapters and connective tissue to integrate external identity provider (IDP’s) and class management systems.")
 !endprocedure
 
 !unquoted procedure UGM($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/969343005/3+User+Group+Management+System User & Group Management System]]", "Manages all users and their roles, groups, and access rights, and makes these centrally available to the application.")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/ISMS/pages/2227666992/User+Group+Management User & Group Management]]", "Manages all users and their roles, groups, and access rights, and makes these centrally available to the application.")
 !endprocedure
 
 !unquoted procedure CM($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1641807874/4+Customer+Management+System Customer Management System]]", "Provides applications to manage and support customers during their lifecycle.")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/ISMS/pages/2227765249/Customer+Management Customer Management]]", "Provides applications to manage and support customers during their lifecycle.")
 !endprocedure
 
-!unquoted procedure DATA($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/940703828/5+Learning+Analytics+Systems Learning Analytics System]]", "Stores and processes all learning and teaching events.")
+!unquoted procedure LA($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/ISMS/pages/2227798017/Learning+Analytics Learning Analytics System]]", "Stores and processes all learning and teaching events.")
 !endprocedure
 
-!unquoted procedure CCS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/968753212/6+Content+Creation+System Content Creation System]]", "Facilitates the creation, management, and publication of learning materials.")
+!unquoted procedure ITE($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/ISMS/pages/2227798033/Intelligent+Tutoring+Engine Intelligent Tutoring Engine]]", "Curates, bundles and delivers published content artefacts to services.")
 !endprocedure
 
 !unquoted procedure MP($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/SYSDOCS/pages/1908342785/7+Marketplace Marketplace]]", "Enables the selection and licensing of learning materials and manages licenses (including trial licenses).")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/ISMS/pages/2227699714/Marketplace Marketplace]]", "Enables the selection and licensing of learning materials and manages licenses (including trial licenses).")
 !endprocedure
 
 !unquoted procedure EIDM($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
