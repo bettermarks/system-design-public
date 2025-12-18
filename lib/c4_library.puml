@@ -50,7 +50,7 @@ Person($alias, "Financing Manager", "An internal role in Finance writing and boo
 /' Predefined Systems to be used in other PlantUMLs '/
 
 !unquoted procedure ITS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
-System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/ISMS/pages/2227666975/Intelligent+Tutoring+System Intelligent Tutoring System]]", "Provides the core Web application for teachers, learners, and administrators.")
+System($alias, "[[https://bettermarks.atlassian.net/wiki/spaces/ISMS/pages/2227666975/Intelligent+Tutoring+System Intelligent Tutoring System]]", "Provides the core Web application for teachers, students, and administrators.")
 !endprocedure
 
 !unquoted procedure IS($alias, $label, $descr="", $sprite="", $tags="", $link="", $type="")
